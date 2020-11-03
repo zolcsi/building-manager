@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ABC001",
+    "address": "30 St Mary Axe, London",
+    "description": "The Gherkin. A commercial skyscraper in London's primary financial district, the City of London",
+    "nicknames": ["aTower", "aGherkin"]
+  },
+  {
+    "id": "ABC002",
+    "address": "Arena Boulevard 1, 1101 Amsterdam",
+    "description": "The Johan Cruyff Arena is the main stadium of the Dutch capital city of Amsterdam and the home stadium of football club AFC Ajax since its opening.",
+    "nicknames": ["amsterdam ArenA"]
+  }
+]

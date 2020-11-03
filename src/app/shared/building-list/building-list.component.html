@@ -1,0 +1,8 @@
+<mat-list>
+  <mat-list-item *ngFor="let building of (buildings$ | async)"
+                 class="building-list-row"
+                 (click)="selectBuilding(building.id)">
+    <mat-icon matListIcon>home</mat-icon>
+    <h3 matLine>{{building.address}}</h3>
+  </mat-list-item>
+</mat-list>

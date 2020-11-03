@@ -1,0 +1,7 @@
+@import '~src/variables';
+
+.building-list-row:hover {
+    cursor: pointer;
+    background-color: $primary;
+    color: $primary-text;
+}
