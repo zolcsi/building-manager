@@ -1,0 +1,8 @@
+@import '~@angular/material/theming';
+
+$app-primary: mat-palette($mat-indigo);
+$app-accent:  mat-palette($mat-deep-purple);
+
+$primary: mat-color($app-primary);
+$accent: mat-color($app-accent);
+$primary-text: whitesmoke;

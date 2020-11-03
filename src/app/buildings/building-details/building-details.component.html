@@ -1,0 +1,32 @@
+<button mat-button routerLink="/buildings">
+  <mat-icon>chevron_left</mat-icon>
+  Back to Buildings
+</button>
+
+<h2 class="title">Building Details</h2>
+
+<div class="info-items">
+  <mat-icon>location_city</mat-icon>
+  <div>
+    {{building.description}}
+  </div>
+
+  <mat-icon>location_on</mat-icon>
+  <div>
+    {{building.address}}
+  </div>
+
+  <mat-icon>sticky_note_2</mat-icon>
+  <div>
+    {{building.nicknames.length > 0
+    ? building.nicknames.join(', ')
+    : '- no nicknames -'}}
+  </div>
+</div>
+
+<mat-divider></mat-divider>
+
+<app-nickname-editor
+  [nicknames]="building.nicknames"
+  (nicknamesSubmitted)="saveNicknames($event)">
+</app-nickname-editor>

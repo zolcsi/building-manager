@@ -1,0 +1,16 @@
+.title {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.info-items {
+  padding: 1.5rem;
+  font-size: 1rem;
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1rem;
+
+  div {
+    padding-top: 2px;
+  }
+}

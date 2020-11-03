@@ -1,0 +1,13 @@
+<div class="title">
+  <div>Big Company</div>
+  <div>Building Manager</div>
+</div>
+
+<app-building-list
+  [buildings$]="buildings$"
+  (buildingSelected)="navigateToBuilding($event)">
+</app-building-list>
+
+<div class="author">
+  zoltan.magyar@concretecode.ch
+</div>

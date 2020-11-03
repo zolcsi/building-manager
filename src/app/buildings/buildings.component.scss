@@ -1,0 +1,25 @@
+@import '~src/variables';
+
+.title {
+  background-color: $primary;
+  color: $primary-text;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & div {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+.author {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: $primary;
+  color: $primary-text;
+  padding: 0.2rem 2rem;
+  border-top-left-radius: 0.6rem;
+}
