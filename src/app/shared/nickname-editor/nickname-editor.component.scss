@@ -3,11 +3,20 @@
   padding-top: 2rem;
 }
 
+.nickname-form {
+  padding: 1.5rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
 .nickname-row {
   margin-top: 1rem;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-between;
 
   .delete-icon {
     padding-top: 1rem;
@@ -20,7 +29,7 @@
 }
 
 .button-row {
-  margin: 2rem 0;
+  margin: 3rem 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
