@@ -14,7 +14,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-##Design decisions:
+## Design decisions:
 
 - "buildings" module was established to keep the app modular. Made lazy to support 
   future optimizations. At the moment it is loaded anyway, as it is the only feature 
@@ -33,6 +33,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
   It is highly probable that the list of the building must be shown somewhere 
   else in the future.
 
-##Thoughts:
+## Thoughts:
  - Should the Nicknames get their own Entity in the Building instead of sting[]?
    No. There is no indication that nickname would become more than a string.  
